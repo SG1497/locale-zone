@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+      
+    <title>Document</title>
+    <script src="/index.js"></script>
+</head>
+
+<body>
+    <h1 class="game-header">Welcome to Locate zone Game</h1>
+    <div class="container">
+        
+    <div class="player">
+        <img src="/assets/BG.png" alt="map">
+        <img src="/assets/sample-character.png"  class="user" alt="">
+       
+        <img src="/assets//location.png" alt="" class="location location-1" onclick="handleUser()" >
+       
+         <img src="/assets//location.png" alt="" class="location location-2"onclick="handleUser()" >
+               
+        <img src="/assets//location.png" alt="" class="location location-3" onclick="handleUser()">
+            
+        <img src="/assets//location.png" alt="" class="location location-4"onclick="handleUser()">
+    
+    </div>
+    </div>
+    <div class="popup" >
+        <!-- <span class="popuptext" id="myPopup">A Simple Popup!</span> -->
+        <div class="pop-container">
+            <p class="pop-que"></p>
+           <div class="pop-text">
+
+           </div>
+               
+            <div class="pop-submit">
+                <button class="next" >Next</button>
+                <button class="submit">Submit</button>
+            </div>
+            
+        </div>
+      </div>
+
+   
+
+      <div class="game-result" >
+        <!-- <span class="popuptext" id="myPopup">A Simple Popup!</span> -->
+        <div class="game-result-container">
+            <!-- <h3>Game Over</h3> -->
+            <p class="result-header">Result</p>
+           <div class="result-scrore">
+           <div class="dot-blue">
+            <span class="result-incorrect"></span>
+            <span class="result-correct">  </span>
+           </div>
+            </div>
+        
+            
+        </div>
+      </div>
+
+</body>
+</html>
